@@ -1,0 +1,27 @@
+.header {
+  background: $header-bg;
+  color: $header-color;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.log__out {
+  margin: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.log__out i {
+  margin: 0 0 0 10px;
+}

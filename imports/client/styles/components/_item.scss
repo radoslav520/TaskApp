@@ -1,0 +1,42 @@
+.item {
+  background: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: $space;
+  padding: $space;
+}
+
+.item__url {
+  word-break: break-all;
+}
+
+.item__message {
+  color: $item-text-color;
+}
+
+.item__status-message {
+  color: $item-text-color;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+
+.item__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__remove {
+  cursor: pointer;
+  color: #E74C3C;
+}
+
+.remove__text {
+  margin-bottom: 5px;
+  word-break: break-word;
+}
+
+.remove__link {
+  margin-bottom: 20px;
+  word-break: break-word;
+}
